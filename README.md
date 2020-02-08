@@ -1,4 +1,4 @@
-# MY Hotkeys
+# My Hotkeys
 > A personal collection of frequently used hotkeys 
 
 These hotkeys range from custom media controls 
