@@ -1,6 +1,5 @@
-;my-hotkeys.ahk
-;
-;
+;My Hotkeys
+;##########
 
 #NoTrayIcon
 #SingleInstance force
