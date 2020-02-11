@@ -13,7 +13,7 @@
 return
 
 ;SHIFT+F5 Opens Slack
-+F5:: Run "%APPDATA%\Local\slack\slack.exe"
++F5:: Run "%USERPROFILE%\AppData\Local\slack\slack.exe"
 return
 
 ;--------------------
