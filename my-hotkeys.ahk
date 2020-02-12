@@ -4,24 +4,32 @@
 #NoTrayIcon
 #SingleInstance force
 
+;----------
+;Hotstrings
+;----------
+::lh::localhost
+
 ;--------------------
 ;Application Hotkeys
 ;--------------------
 
 ;SHIFT+F4 Opens Spotify
-+F4:: Run "%APPDATA%\Spotify\Spotify.exe"
++F4:: Try Run "%APPDATA%\Spotify\Spotify.exe"
 return
 
 ;SHIFT+F5 Opens Slack
-+F5:: Run "%USERPROFILE%\AppData\Local\slack\slack.exe"
++F5:: Try Run "%USERPROFILE%\AppData\Local\slack\slack.exe"
 return
 
 ;--------------------
 ;Media Hotkeys
 ;--------------------
 
+;CTRL+F1 System audio mute toggle
 ^F1::Send {Volume_Mute}
+;CTRL+F2 decrease sound by 4 points
 ^F2::SoundSet, -4
+;CTRL+F3 increase sound by 4 points
 ^F3::SoundSet, +4
 
 ;SHIFT+F1 rewinds current track
@@ -43,10 +51,3 @@ return
 ;CTRL+ALT+A keeps active window on top
 ^!A:: Winset, Alwaysontop, ,A 
 return
-
-;--------------------
-;Productivity Hotstrings
-;--------------------
-
-;lh hotstring
-::lh::localhost
