@@ -60,3 +60,7 @@ return
 ;CTRL+ALT+A keeps active window on top
 ^!A:: Winset, Alwaysontop, ,A 
 return
+
+;CTRL+ALT+L fills small string of Lorem Ipsum text
+^!L:: Send, Lorem ipsum dolor sit amet, consectetur adipiscing elit
+return
