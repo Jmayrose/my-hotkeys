@@ -23,11 +23,11 @@ return
 return
 
 ;SHIFT+F6 Opens MongoDB Compass
-+F6:: Run "C:\Program Files\MongoDB Compass\MongoDBCompass.exe"
++F6:: Try Run "C:\Program Files\MongoDB Compass\MongoDBCompass.exe"
 return
 
 ;SHIFT+F7 Opens Postman
-+F7:: Run "C:\Users\jhmayr01\AppData\Local\Postman\Postman.exe"
++F7:: Try Run "%USERPROFILE%\AppData\Local\Postman\Postman.exe"
 return
 
 ;--------------------
