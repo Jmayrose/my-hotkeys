@@ -61,9 +61,13 @@ return
 ^!A:: Winset, Alwaysontop, ,A 
 return
 
-;CTRL+ALT+L fills small string of Lorem Ipsum text
-source := "consectetur adipiscing elit. Maecenas vel massa est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque pellentesque augue, eget aliquam quam sagittis ac. Vestibulum ac elementum tortor. Duis rutrum, mi non blandit bibendum, urna est tincidunt nisl, ac dapibus sapien nisl luctus turpis. Curabitur in fringilla libero. Nunc ornare placerat nisl ut maximus. Donec convallis, lectus sit amet" 
-Random, start, 0, 48
-leString := SubStr(source, start, 16)
-^!L:: Send, "Lorem ipsum dolor sit amet, "
+;CTRL+ALT+L writes 32 characters of Lorem Ipsum text
+^!L:: Send, % loremIpsum()
 return
+
+loremIpsum(){
+Source := "Vivamus placerat nisi in erat laoreet, ac placerat tortor sollicitudin. Donec urna velit, lacinia sit amet auctor vel, placerat ut ipsum. Vestibulum nulla urna, sodales vel maximus in, posuere non eros. Proin venenatis nisl magna, eget placerat magna amet" 
+Random, start, 0, 256
+leString := SubStr(Source, start, 32)
+return leString 
+}
