@@ -62,5 +62,8 @@ return
 return
 
 ;CTRL+ALT+L fills small string of Lorem Ipsum text
-^!L:: Send, Lorem ipsum dolor sit amet, consectetur adipiscing elit
+source := "consectetur adipiscing elit. Maecenas vel massa est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque pellentesque augue, eget aliquam quam sagittis ac. Vestibulum ac elementum tortor. Duis rutrum, mi non blandit bibendum, urna est tincidunt nisl, ac dapibus sapien nisl luctus turpis. Curabitur in fringilla libero. Nunc ornare placerat nisl ut maximus. Donec convallis, lectus sit amet" 
+Random, start, 0, 48
+leString := SubStr(source, start, 16)
+^!L:: Send, "Lorem ipsum dolor sit amet, "
 return
