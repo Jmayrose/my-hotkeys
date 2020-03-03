@@ -66,7 +66,7 @@ return
 return
 
 loremIpsum(){
-Source := "Vivamus placerat nisi in erat laoreet, ac placerat tortor sollicitudin. Donec urna velit, lacinia sit amet auctor vel, placerat ut ipsum. Vestibulum nulla urna, sodales vel maximus in, posuere non eros. Proin venenatis nisl magna, eget placerat magna amet" 
+Source := "Vivamus placerat nisi in erat laoreet ac placerat tortor sollicitudin Donec urna velit lacinia sit amet auctor vel placerat ut ipsum Vestibulum nulla urna sodales vel maximus in posuere non eros Proin venenatis nisl magna eget placerat magna amet" 
 Random, start, 0, 256
 leString := SubStr(Source, start, 32)
 return leString 
