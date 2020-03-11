@@ -61,8 +61,8 @@ return
 ^!A:: Winset, Alwaysontop, ,A 
 return
 
-;CTRL+ALT+L writes 32 characters of Lorem Ipsum text
-^!L:: Send, % loremIpsum()
+;CTRL+L writes 32 characters of Lorem Ipsum text
+^L:: Send, % loremIpsum()
 return
 
 loremIpsum(){
