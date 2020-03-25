@@ -10,6 +10,8 @@
 
 ::lh::localhost
 
+::lh3::localhost:3000
+
 ;--------------------
 ;Application Hotkeys
 ;--------------------
@@ -23,7 +25,7 @@ return
 return
 
 ;SHIFT+F6 Opens MongoDB Compass
-+F6:: Try Run "C:\Program Files\MongoDB Compass\MongoDBCompass.exe"
++F6:: Try Run "%USERPROFILE%\AppData\Local\MongoDBCompass\MongoDBCompass.exe"
 return
 
 ;SHIFT+F7 Opens Postman
