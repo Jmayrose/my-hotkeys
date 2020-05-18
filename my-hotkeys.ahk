@@ -41,7 +41,7 @@ return
 return
 
 ;SHIFT+F8 Discord
-+F8:: Try Run "%UPSERPROFILE%\AppData\Local\Discord\Update.exe --processStart Discord.exe"
++F8:: Try Run "%USERPROFILE%\AppData\Local\Discord\app-0.0.306\Discord.exe"
 return
 
 ;--------------------
@@ -57,7 +57,7 @@ return
 return
 
 ;SHIFT+F11 GitKraken
-+F11:: Try Run "C:\Users\josep\AppData\Local\gitkraken\app-6.5.4\gitkraken.exe" ;TODO Change to always run most updated version 
++F11:: Try Run "%USERPROFILE%\AppData\Local\gitkraken\app-6.5.4\gitkraken.exe"
 return
 
 ;SHIFT+F12 VS Code
