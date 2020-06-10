@@ -11,5 +11,5 @@ newer versions shouldn't present a problem.
 
 ## Development
 
-Scripts will be added as they make them.
-at present, there is no timeline for this project.
+Scripts will be added as I make them.
+At present, there is no timeline for this project.

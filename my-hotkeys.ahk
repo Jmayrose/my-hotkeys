@@ -57,7 +57,7 @@ return
 return
 
 ;SHIFT+F11 GitKraken
-+F11:: Try Run "%USERPROFILE%\AppData\Local\gitkraken\app-6.5.4\gitkraken.exe"
++F11:: Try Run "%USERPROFILE%\AppData\Local\gitkraken\app-7.0.1\gitkraken.exe"
 return
 
 ;SHIFT+F12 VS Code
