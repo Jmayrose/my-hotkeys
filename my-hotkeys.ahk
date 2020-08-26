@@ -56,14 +56,13 @@ return
 +F10:: Try Run "%USERPROFILE%\AppData\Local\Postman\Postman.exe"
 return
 
-;SHIFT+F11 GitKraken
-+F11:: Try Run "%USERPROFILE%\AppData\Local\gitkraken\app-7.0.1\gitkraken.exe"
+;SHIFT+F11 Docker Desktop
++F12:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 return
 
 ;SHIFT+F12 VS Code
 +F12:: Try Run "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 return
-
 ;--------------------
 ;Productivity Hotkeys
 ;--------------------
