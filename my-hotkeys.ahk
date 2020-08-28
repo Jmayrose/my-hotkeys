@@ -66,8 +66,8 @@ return
 +F10:: Try Run "%USERPROFILE%\AppData\Local\Postman\Postman.exe"
 return
 
-;SHIFT+F11 Docker Desktop
-+F12:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+;SHIFT+F11 Git Kraken
++F11:: Try Run "C:\Users\josep\AppData\Local\gitkraken\app-7.3.0\gitkraken"
 return
 
 ;SHIFT+F12 VS Code
