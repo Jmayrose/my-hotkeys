@@ -55,7 +55,7 @@ return
 return
 
 ;SHIFT+F8 Discord
-+F8:: Try Run "%USERPROFILE%\AppData\Local\Discord\app-0.0.306\Discord.exe"
++F8:: Try Run "%USERPROFILE%\AppData\Local\Discord\app-0.0.308\Discord.exe"
 return
 
 ;SHIFT+F9 MongoDB Compass
@@ -78,6 +78,7 @@ return
 ;--------------------
 
 ::lh::localhost
+::lh3::localhost:3000
 
 ;CTRL+ALT+A keeps active window on top
 ^!A:: Winset, Alwaysontop, ,A 
@@ -90,6 +91,6 @@ return
 loremIpsum(){
 Source := "dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem nulla pharetra diam sit amet nisl. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Id diam vel quam elementum pulvinar etiam non quam lacus. Iaculis at erat pellentesque adipiscing commodo elit. Ornare massa eget egestas purus viverra. Justo laoreet sit amet cursus sit amet dictum. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Dictumst vestibulum rhoncus est pellentesque elit. Augue eget arcu dictum varius. Viverra suspendisse potenti nullam ac tortor. Mauris augue neque gravida in fermentum et. Enim facilisis gravida neque convallis a cras semper auctor neque. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Sit amet venenatis urna cursus eget nunc scelerisque. Dignissim convallis aenean et tortor at risus viverra adipiscing at." 
 Random, start, 0, 256
-leString := "Lorem Ipsum," . SubStr(Source, start, 32)
+leString := "Lorem Ipsum, " . SubStr(Source, start, 32)
 return leString 
 }
