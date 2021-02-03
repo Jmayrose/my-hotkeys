@@ -33,8 +33,8 @@ return
 +F4:: Try Run "%APPDATA%\Spotify\Spotify.exe"
 return
 
-;SHIFT+F5 Outlook
-+F5:: Try Run "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE"
+;SHIFT+F5 
+;+F5:: Try Run ""
 return
 ;CTRL+F5 Docker Desktop
 ^F5:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
@@ -66,13 +66,27 @@ return
 +F10:: Try Run "%USERPROFILE%\AppData\Local\Postman\Postman.exe"
 return
 
-;SHIFT+F11 Git Kraken
-+F11:: Try Run "C:\Users\josep\AppData\Local\gitkraken\app-7.3.0\gitkraken"
+;SHIFT+F11 GitHub Desktop
++F11:: Try Run "%USERPROFILE%\AppData\Local\GitHubDesktop\GitHubDesktop.exe"
 return
 
 ;SHIFT+F12 VS Code
 +F12:: Try Run "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 return
+
+;--------------------
+;Workday Master Hotkey
+;--------------------
+
++^F1:: 
+Try Run "%USERPROFILE%\AppData\Local\Microsoft\Teams\current\Teams.exe"
+Try Run "%USERPROFILE%\AppData\Local\slack\slack.exe"
+Try Run "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+Try Run "%USERPROFILE%\AppData\Local\GitHubDesktop\GitHubDesktop.exe"
+Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+
+return
+
 ;--------------------
 ;Productivity Hotkeys
 ;--------------------
