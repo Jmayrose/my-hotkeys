@@ -34,7 +34,7 @@ return
 return
 
 ;SHIFT+F5 
-;+F5:: Try Run ""
++F5:: Try Run "C:\Program Files\Mozilla Firefox\firefox.exe"
 return
 ;CTRL+F5 Docker Desktop
 ^F5:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
@@ -79,12 +79,12 @@ return
 ;--------------------
 
 +^F1:: 
+Try Run "%APPDATA%\Spotify\Spotify.exe"
 Try Run "%USERPROFILE%\AppData\Local\Microsoft\Teams\current\Teams.exe"
 Try Run "%USERPROFILE%\AppData\Local\slack\slack.exe"
 Try Run "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 Try Run "%USERPROFILE%\AppData\Local\GitHubDesktop\GitHubDesktop.exe"
 Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
-
 return
 
 ;--------------------
