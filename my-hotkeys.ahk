@@ -34,7 +34,7 @@ return
 return
 
 ;SHIFT+F5 
-+F5:: Try Run "C:\Program Files\Mozilla Firefox\firefox.exe"
++F5:: Try Run "C:\Program Files\Mozilla Firefox\firefox.exe",C:\Program Files\Mozilla Firefox\
 return
 ;CTRL+F5 Docker Desktop
 ^F5:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
@@ -55,7 +55,7 @@ return
 return
 
 ;SHIFT+F8 Discord
-+F8:: Try Run "%USERPROFILE%\AppData\Local\Discord\app-0.0.308\Discord.exe"
++F8:: Try Run "%USERPROFILE%\AppData\Local\Discord\app-0.0.309\Discord.exe"
 return
 
 ;SHIFT+F9 MongoDB Compass
