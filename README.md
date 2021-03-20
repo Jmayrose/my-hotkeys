@@ -20,15 +20,16 @@
 - SHIFT+F10 - Postman API Development
 - SHIFT+F11 - GitHub Desktop
 - SHIFT+F12 - VS Code
-- CTRL+ALT+F1 - Starts all usual workday programs, I prefer this to windows startup processes (Warning: may be slow if triggered too quickly after boot)
+- CTRL+ALT+F1 - Starts all usual workday programs, I prefer this to windows startup processes   
+(Warning: may be slow if triggered too quickly after boot)
 - CTRL+ALT+A keeps active window on top
 - CTRL+L writes 32 characters of text, starting with Lorem Ipsum
 
 ## Instalation
 
-Script is current with AutoHotKey version 1.1.33.04
-Requires AutoHotkey.exe dependency
-May be compiled into standalone .exe
+Requires AutoHotkey.exe dependency  
+Repo is current with AutoHotKey version 1.1.33.04  
+May be compiled into standalone executable  
 
 ## Development
 
