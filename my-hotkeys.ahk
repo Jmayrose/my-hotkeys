@@ -34,8 +34,9 @@ return
 return
 
 ;SHIFT+F5 
-+F5:: Try Run "C:\Program Files\Mozilla Firefox\firefox.exe",C:\Program Files\Mozilla Firefox\
-return
+;+F5:: 
+;return
+
 ;CTRL+F5 Docker Desktop
 ^F5:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 return
