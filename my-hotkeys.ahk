@@ -95,6 +95,8 @@ return
 ::lh::localhost
 ::lh3::localhost:3000
 
+::flase::false
+
 ;CTRL+ALT+A keeps active window on top
 ^!A:: Winset, Alwaysontop, ,A 
 return
