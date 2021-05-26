@@ -32,11 +32,13 @@ return
 ;SHIFT+F4 Spotify
 +F4:: Try Run "%APPDATA%\Spotify\Spotify.exe"
 return
+;CTRL+F4 WSL
+^F4:: run, %comspec% /c debian
+return
 
-;SHIFT+F5 
-;+F5:: 
-;return
-
+;SHIFT+F5 Newsboat
++F5:: Try run, %comspec% /c wsl -e newsboat -r
+return
 ;CTRL+F5 Docker Desktop
 ^F5:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 return
@@ -58,22 +60,37 @@ return
 ;SHIFT+F8 Discord
 +F8:: Try Run "%USERPROFILE%\AppData\Local\Discord\app-0.0.309\Discord.exe"
 return
+;CTRL+F8
+; ^F8::
+; return
 
 ;SHIFT+F9 MongoDB Compass
-+F9:: Try Run "%USERPROFILE%\AppData\Local\MongoDBCompass\MongoDBCompass.exe"
++F9:: Try Run "C:\Program Files\MongoDB Compass\MongoDBCompass.exe"
 return
+;CTRL+F9
+; ^F9::
+; return
 
 ;SHIFT+F10 Postman
 +F10:: Try Run "%USERPROFILE%\AppData\Local\Postman\Postman.exe"
 return
+;CTRL+F10
+; ^F10::
+; return
 
 ;SHIFT+F11 GitHub Desktop
 +F11:: Try Run "%USERPROFILE%\AppData\Local\GitHubDesktop\GitHubDesktop.exe"
 return
+;CTRL+F11
+; ^F11::
+; return
 
 ;SHIFT+F12 VS Code
 +F12:: Try Run "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 return
+;CTRL+F12
+; ^F12::
+; return
 
 ;--------------------
 ;Workday Master Hotkey
@@ -86,6 +103,7 @@ Try Run "%USERPROFILE%\AppData\Local\slack\slack.exe"
 Try Run "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 Try Run "%USERPROFILE%\AppData\Local\GitHubDesktop\GitHubDesktop.exe"
 Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+Try Run "C:\Program Files\Palo Alto Networks\GlobalProtect\PanGPA.exe"
 return
 
 ;--------------------
