@@ -37,8 +37,8 @@ return
 return
 
 ;SHIFT+F5 Newsboat
-+F5:: Try run, %comspec% /c wsl -e newsboat -r
-return
+; +F5::
+; return
 ;CTRL+F5 Docker Desktop
 ^F5:: Try Run "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 return
